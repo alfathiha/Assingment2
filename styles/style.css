@@ -705,6 +705,28 @@ line-height: 120%
 
 }
 
+/* footer section */
+
+.footer-container
+{ width: 100%;
+  height: auto;
+  flex-direction: column;
+
+}
+.footer
+{
+  width: 576px;
+  height: auto;
+  padding-left: 20px;
+  
+}
+.footer-description
+{
+  padding-bottom: 20px;
+}
+
+
+
 
 }
 
