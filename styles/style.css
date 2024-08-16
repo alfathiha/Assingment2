@@ -273,7 +273,7 @@ font-size: 3rem;
 font-weight: 900;
 }
 .habit-description , .run-description , .bmi-calculator-description , .item-box-description , .Calculator-part-description
-, .team-description
+, .team-description , .footer-description
 {color: rgba(255, 255, 255, 0.5);
  font-size: .88rem;
  padding-top: 10px;
@@ -503,13 +503,82 @@ line-height: 120%
   font-size: 1rem;
 }
 
+/* footer section */
+
+.footer
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-container
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  position: relative;
+  width: 100% ;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
 
 
 
 
+.footer-title
+{
+  color: rgb(230, 83, 60);
+ font-size: 4.4rem;
+ font-weight: 800;
+ font-style: italic;
+}
 
+.get-started h4
+{
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.get-started ul li a
+{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
 
+.get-started ul li
 
+{
+  list-style: none;
+  padding-top: 10px;
+
+}
+
+ .get-started ul
+ {
+  height: 172px;
+ }
+ .line 
+ {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+ }
+ 
+ .last 
+ {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+}
 
 /* Responsive desing for mobile */
 @media screen and (max-width: 576px) 
@@ -635,8 +704,6 @@ line-height: 120%
   height: auto;
 
 }
-
-
 
 
 }
