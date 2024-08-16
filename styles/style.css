@@ -450,23 +450,66 @@ line-height: 120%
 
 .team-image-container
 {
-  width: 70%;
+  width: 60%;
   height: auto;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .team-image-container
 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  padding: 15px;
 }
-.team-image image
+.team-image
 {
-  width: auto;
-  height: 300px;
+  /* width: 356px; */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
+
+.team-img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;  
+}
+
+.team-image
+{
+  position: relative;
+}
+
+.team-box 
+{
+  position: absolute;
+  bottom: 20px;
+  padding-left: 15px;
+}
+.trainer-name
+{
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+}
+.trainer
+{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
 
 /* Responsive desing for mobile */
 @media screen and (max-width: 576px) 
@@ -575,6 +618,26 @@ line-height: 120%
 {
   width: 90%;
 }
+
+/* Meet our team section */
+
+.meet-our-team
+{
+  width: 576px;
+  height: auto;
+
+}
+
+.team-image-container
+{
+  grid-template-columns: repeat(1, 1fr);
+  width: 85%;
+  height: auto;
+
+}
+
+
+
 
 }
 
